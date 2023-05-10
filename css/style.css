@@ -133,11 +133,20 @@ img {
 }
 
 
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 90%;
+    }   
+}
+
+
  @media screen and (max-width: 768px) {
     .container {
-        width: 744px;
+        /* width: 744px; */
+        width: 95%;
     }
  }
+
 
  @media screen and (max-width: 480px) {
 
